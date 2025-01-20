@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style.25</title>
+    <!-- ============<style></style>============== -->
+            <link rel="stylesheet" href="style.css" type="text/css">
+
+    
+    
+</head>
+<body>
+    
+        <header>
+           
+            <div class="container">
+
+
+                <div class="left-menu">
+                    <a href="#">
+                       <h3>Style.<span>25</span></h3>
+                        
+                    </a>
+
+                </div>
+            <div class="right-menu">
+                <ion-icon name="menu-outline" id="menu-icon"></ion-icon>
+               <div id="menuDropNav">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><button id="btn">Choose</button></li>
+                    <li><a href="#">New </a></li>
+                    <li><a href="#preview">Preview</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#" id="#changeColorButton" onclick="changeBodyColor()"><ion-icon name="color-wand-outline"></ion-icon></a></li>
+                </ul>
+                <div id="option">
+                    <ul>
+                        <li><a href="#myVideo">D-tell</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+               </div>
+            <div style="clear: both;"></div>
+            </div>
+        </header>
+
+        <!-- ===============<section></section>================ -->
+            <br> 
+        <section >
+            <div class="container-1" >
+                <div class="preview-left">
+                    <div class="active">
+                        <h1>The for men</h1>
+                        <span>Wool sweaters, cardigans, <wbr>and turtlenecks.
+                            Overcoats, trench coats, or <br> puffer jackets for layering.
+                            Scarves, gloves, and beanies.</wbr>
+                        </span>
+                        <p>Discount: 20%</p>
+                       
+                        <p id="pric">Pice :</p>
+
+                        <input type="button" value="View" onclick="priceView('$  '); " name="" id="Shop">
+                       <br>
+
+                        <div class="alert-btn" id="menu">
+
+                            <div class="title-b">
+                                <img src="img/c3.webp" alt="">
+                                    <div class="place">
+                                            <h2>Style.25 Man</h2>
+                                            <span>The fashions for men <wbr>
+                                                The travel or Exercise for body .
+                                            </span>
+                                            <p>Discount : 20% , Free delivery  </p>
+                                            <p>Size : S M L XL XXL</p>
+                                            <p id="chager">Price :</p>
+
+
+                                            <input type="button" id="order" value="price" onclick="payMen('$ ' )" id="orderNow">
+                                    </div>                                
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="preview-right">
+                    <img src="img/c3.webp" alt="">
+                </div>
+            </div>
+            <!-- <div style="clear: both;"></div> -->
+         </section>
+
+
+         <br>
+         <section class="preview" id="preview">
+        <div class="card-3">
+            <div class="card">
+                <img src="img/7c.webp"  alt="">
+
+                <h1>The for men</h1>
+                <span>Wool sweaters, cardigans, <wbr>.
+                    Overcoats, trench coats, or <br> 
+                    Scarves, gloves, and beanies.</wbr>
+                </span>
+                <p>Discount: 20%</p>
+
+                <button  id="Views">View</button>
+            </div>
+
+            <div class="card">
+                <img src="img/c2.jpg"  alt="">
+
+                <h1>The for men</h1>
+                <span>Wool sweaters, cardigans, <wbr>
+                    Overcoats, trench coats, or <br> 
+                    Scarves, gloves, and beanies.</wbr>
+                </span>
+                <p>Discount: 20%</p>
+
+                <button  id="View1">View</button>
+            </div>
+
+            <div class="card">
+                <img src="img/8c.webp"  alt="">
+
+                <h1>The for men</h1>
+                <span>Wool sweaters, cardigans, <wbr>
+                    Overcoats, trench coats, or <br> 
+                    Scarves, gloves, and beanies.</wbr>
+                </span>
+                <p>Discount: 20%</p>
+
+                <button  id="View2">View</button>
+            </div>
+
+            <div class="card">
+                <img src="img/c4.webp" alt="">
+
+                <h1>The for men</h1>
+                <span>Wool sweaters, cardigans, <wbr>
+                    Overcoats, trench coats, or <br> 
+                    Scarves, gloves, and beanies.</wbr>
+                </span>
+                <p>Discount: 20%</p>
+
+                <button  id="View3">View</button>
+            </div>
+
+            <div class="card">
+                <img src="img/c5.webp" alt="">
+
+                <h1>The for men</h1>
+                <span>Wool sweaters, cardigans, <wbr>
+                    Overcoats, trench coats, or <br> 
+                    Scarves, gloves, and beanies.</wbr>
+                </span>
+                <p>Discount: 20%</p>
+
+                <button  id="View4">View</button>
+            </div>
+
+
+            <div class="card">
+                <img src="img/c6.webp" alt="">
+
+                <h1>The for men</h1>
+                <span>Wool sweaters, cardigans, <wbr>
+                    Overcoats, trench coats, or <br> 
+                    Scarves, gloves, and beanies.</wbr>
+                </span>
+                <p>Discount: 20%</p>
+
+                <button  id="View5">View</button>
+            </div>
+
+
+
+        </div>
+
+
+    
+
+
+         </section>
+
+         <!-- ==================click-menu================= -->
+          
+        <section>
+            <div class="card-2" id="menu-card" style="z-index: 9000;top: 10%; position: fixed;">
+                <div class="click">
+                    <div class="left">
+                        <h1>The for men</h1>
+                        <span>Wool sweaters, cardigans, <wbr>
+                            Overcoats, trench coats, or <br> 
+                            Scarves, gloves, and beanies.</wbr>
+                        </span>
+                        <p>Discount: 20%</p>
+                        <p>Size : S, M, L, XL, XXL</p>
+                       <h3 id="View-price" style="color: aliceblue;">Price : </h3>
+                       
+                        <button  id="show" onclick="plucMenu('$')" >pric</button>
+                        <button id="offCard" onclick="offMenu()">Back</button>
+                    </div>
+        
+        
+                    <div class="right">
+                        <img src="img/7c.webp" alt="">
+                    </div>
+                </div>
+              
+            </div>
+
+            <!-- ==============menu-card2===============1 -->
+       <div class="card-2" id="menu-card1" style="z-index: 9000;top: 10%; position: fixed;">
+                <div class="click">
+                    <div class="left">
+                        <h1>The for men</h1>
+                        <span>Wool sweaters, cardigans, <wbr>
+                            Overcoats, trench coats, or <br> 
+                            Scarves, gloves, and beanies.</wbr>
+                        </span>
+                        <p>Discount: 20%</p>
+                        <p>Size :  S ,M ,L ,XL, XXL</p>
+                       <h3 id="view-One" style="color: aliceblue;">Price : </h3>
+                       
+                        <button  id="show1" onclick="viewOne(' $ ')" >pric</button>
+                        <button id="offOne" onclick="offMenuOne()">Back</button>
+                    </div>
+        
+        
+                    <div class="right">
+                        <img src="img/c2.jpg" alt="">
+                    </div>
+                </div>
+              
+            </div>
+
+
+
+            <div class="card-2" id="menu-card2" style="z-index: 9000;top: 10%; position: fixed;">
+                <div class="click">
+                    <div class="left">
+                        <h1>The for men</h1>
+                        <span>Wool sweaters, cardigans, <wbr>
+                            Overcoats, trench coats, or <br> 
+                            Scarves, gloves, and beanies.</wbr>
+                        </span>
+                        <p>Discount: 20%</p>
+                        <p>Size : S ,M ,L ,XL, XXL</p>
+                       <h3 id="view-One2" style="color: aliceblue;">Price : </h3>
+                       
+                        <button  id="show2" onclick="viewTwo(' $ ')" >pric</button>
+                        <button id="offTwo" onclick="offMenuTwo()">Back</button>
+                    </div>
+        
+        
+                    <div class="right">
+                        <img src="img/8c.webp" alt="">
+                    </div>
+                </div>
+              
+            </div>
+
+            <div class="card-2" id="menu-card3" style="z-index: 9000;top: 10%; position: fixed;">
+                <div class="click">
+                    <div class="left">
+                        <h1>The for men</h1>
+                        <span>Wool sweaters, cardigans, <wbr>
+                            Overcoats, trench coats, or <br> 
+                            Scarves, gloves, and beanies.</wbr>
+                        </span>
+                        <p>Discount: 20%</p>
+                        <p>Size : S ,M ,L ,XL, XXL</p>
+                       <h3 id="view-One3" style="color: aliceblue;">Price : </h3>
+                       
+                        <button  id="show3" onclick="viewTree(' $ ')" >pric</button>
+                        <button id="offTree" onclick="offMenuTree()">Back</button>
+                    </div>
+        
+        
+                    <div class="right">
+                        <img src="img/c4.webp" alt="">
+                    </div>
+                </div>
+              
+            </div>
+    
+            <div class="card-2" id="menu-card4" style="z-index: 9000;top: 10%; position: fixed;">
+                <div class="click">
+                    <div class="left">
+                        <h1>The for men</h1>
+                        <span>Wool sweaters, cardigans, <wbr>
+                            Overcoats, trench coats, or <br> 
+                            Scarves, gloves, and beanies.</wbr>
+                        </span>
+                        <p>Discount: 20%</p>
+                        <p>Size :  S ,M ,L ,XL, XXL</p>
+                       <h3 id="view-One4" style="color: aliceblue;">Price : </h3>
+                       
+                        <button  id="show4" onclick=" viewFour(' $ ')" >pric</button>
+                        <button id="offFour" onclick="offMenuFour()">Back</button>
+                    </div>
+        
+        
+                    <div class="right">
+                        <img src="img/c5.webp" alt="">
+                    </div>
+                </div>
+              
+            </div>
+    
+            
+            <div class="card-2" id="menu-card5" style="z-index: 9000;top: 10%; position: fixed;">
+                <div class="click">
+                    <div class="left">
+                        <h1>The for men</h1>
+                        <span>Wool sweaters, cardigans, <wbr>
+                            Overcoats, trench coats, or <br> 
+                            Scarves, gloves, and beanies.</wbr>
+                        </span>
+                        <p>Discount: 20%</p>
+                        <p>Size : S ,M ,L ,XL, XXL</p>
+                       <h3 id="view-One5" style="color: aliceblue;">Price : </h3>
+                       
+                        <button  id="show5" onclick=" viewFive(' $ ')" >pric</button>
+                        
+                        <button id="offFive" onclick="offMenuFive()">Back</button>
+                    </div>
+        
+        
+                    <div class="right">
+                        <img src="img/c6.webp" alt="">
+                    </div>
+                </div>
+              
+            </div>
+
+        </section>
+
+        <!-- =================click-menu-ending=================== -->
+        <br>
+        <div class="video-show">
+            <video id="myVideo" controls class="video">
+                <source src="vd/fiist.webm" type="video/mp4">
+                <source src="video.ogg" type="video/ogg">
+               
+              </video>
+              <div class="letter">
+                    <h1>Basic Refresh</h1>
+                
+              </div>
+        </div>    
+
+        <!-- =================ending video============== -->
+  
+        <section class="four-card">
+                <div class="card-four">
+                    <div class="detell-letter">
+                        <img src="img/1c.jpeg" alt="" style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="right-view">
+                        <h1> men to hardwork</h1>
+                        <span>These is so handsome for men </span>
+                        <p>Discount 30%</p>
+                        <p id="interface">Price</p>
+
+                        <button class="btn" id="seeMore">More ></button>
+                    </div>
+                </div>
+                <div class="card-four">
+                    <div class="detell-letter">
+                        <img src="img/2c.jpeg" alt="" style="width: 200px; height: 200px;">
+                    </div>
+                    <div class="right-view">
+                            <h1> men to hardwork</h1>
+                            <span>These is so handsome for men </span>
+                            <p>Discount 30%</p>
+                            <p id="interfaceTwo">Price</p>
+
+                            <button class="btn" id="seeMoreTwo">More ></button>
+                    </div>
+                </div>
+                <div class="card-four">
+                    <div class="detell-letter">
+                        <img src="img/3c.jpeg" alt=""  style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="right-view">
+                        <h1> men to hardwork</h1>
+                        <span>These is so handsome for men </span>
+                        <p>Discount 30%</p>
+                        <p id="interfaceTree">Price</p>
+
+                        <button class="btn" id="seeMoreTree">More ></button>
+                    </div>
+                </div>
+                <div class="card-four">
+                    <div class="detell-letter">
+                        <img src="img/4c.jpeg" alt=""  style="width: 200px; height: 200px;">
+                    </div>
+                    <div class="right-view">
+                        <h1> men to hardwork</h1>
+                        <span>These is so handsome for men </span>
+                        <p>Discount 30%</p>
+                        <p id="interfaceFour">Price</p>
+
+                        <button class="btn" id="seeMoreFour">More ></button>
+                    </div>
+                </div>
+                <div class="card-four">
+                    <div class="detell-letter">
+                        <img src="img/6c.jpg" alt="" style="height: 300px; width: 300px;">
+                    </div>
+                    <div class="right-view">
+                        <h1> men to hardwork</h1>
+                        <span>These is so handsome for men </span>
+                        <p>Discount 30%</p>
+                        <p id="showFive">Price</p>
+
+                        <button class="btn" id="SeeMoreFive">More ></button>
+                    </div>
+                </div>
+                
+
+        </section>
+        
+            <section id="top">
+               <div class="card-alert" id="alertCd">
+                <div class="card-top">
+                   
+                        <div class="title-alert">
+                            <h2>For men</h2>
+                            <span>Refresh your day of closthing <br>
+                                the best day for you 
+                            </span>
+                            <p>Size : S, M , L , XL ,XXL</p>
+                            <p id="showPrice">Pric : </p>
+                            <button class="btn" id="title-pric" onclick="showPrice('$ ')">Pric</button>
+                            <button  class="btn" id="backMore" onclick="backMoreOne()">Back</button>
+    
+    
+                        </div>
+                        <div class="img-alert">
+                            <img src="img/1c.jpeg" alt="">
+                        </div>
+                  
+                </div>
+               </div>
+
+               <div class="card-alert" id="alertCdTwo">
+                <div class="card-top">
+                   
+                        <div class="title-alert">
+                            <h2>For men</h2>
+                            <span>Refresh your day of closthing <br>
+                                the best day for you 
+                            </span>
+                            <p>Size : S, M , L , XL ,XXL</p>
+                            <p id="showPriceTwo">Pric : </p>
+                            <button class="btn" id="title-pric" onclick="showPriceOne('$ ')">Pric</button>
+                            <button class="btn" id="backMoreTwo" onclick="backTwoMore()">Back</button>
+    
+    
+                        </div>
+                        <div class="img-alert">
+                            <img src="img/2c.jpeg" alt="">
+                        </div>
+                  
+                </div>
+               </div>
+
+
+               
+               <div class="card-alert" id="alertCdTree">
+                <div class="card-top">
+                   
+                        <div class="title-alert">
+                            <h2>For men</h2>
+                            <span>Refresh your day of closthing <br>
+                                the best day for you 
+                            </span>
+                            <p>Size : S, M , L , XL ,XXL</p>
+                            <p id="showPriceTree">Pric : </p>
+                            <button class="btn" id="title-pric" onclick="showPriceTree('$ ')">Pric</button>
+                            <button class="btn" id="backMoreTree" onclick="backTwoTree()">Back</button>
+    
+    
+                        </div>
+                        <div class="img-alert">
+                            <img src="img/3c.jpeg" alt="">
+                        </div>
+                  
+                </div>
+               </div>
+
+
+                          
+               <div class="card-alert" id="alertCdFour">
+                <div class="card-top">
+                   
+                        <div class="title-alert">
+                            <h2>For men</h2>
+                            <span>Refresh your day of closthing <br>
+                                the best day for you 
+                            </span>
+                            <p>Size : S, M , L , XL ,XXL</p>
+                            <p id="showPriceFour">Pric : </p>
+                            <button class="btn" id="title-pric" onclick="showPriceFour('$ ')">Pric</button>
+                            <button class="btn" id="backMoreFour" onclick="backFour()">Back</button>
+    
+    
+                        </div>
+                        <div class="img-alert">
+                            <img src="img/4c.jpeg" alt="">
+                        </div>
+                  
+                </div>
+               </div>
+
+               <div class="card-alert" id="alertCdFive">
+                <div class="card-top">
+                   
+                        <div class="title-alert">
+                            <h2>For men</h2>
+                            <span>Refresh your day of closthing <br>
+                                the best day for you 
+                            </span>
+                            <p>Size : S, M , L , XL ,XXL</p>
+                            <p id="showPriceFive">Pric : </p>
+                            <button class="btn" id="title-pric" onclick="fiveMenuSee('$ ')">Pric</button>
+                            <button class="btn" id="backMorefive" onclick="backMorefive()">Back</button>
+    
+    
+                        </div>
+                        <div class="img-alert">
+                            <img src="img/6c.jpg" alt="">
+                        </div>
+                  
+                </div>
+               </div>
+            </section>
+
+<!-- ===================contact--footer====================== -->
+
+<footer style="background-color: rgb(241, 238, 235);">
+    <div class="footer-contact">
+            <ul>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            </ul>
+
+    </div>
+
+    <!-- ================================== -->
+    <div class="footer-menu">
+            <table>
+                    <tr>
+                        <th>Help & Information</th>
+                        <th>About Style.25</th>
+                        <th>More From Style.25</th>
+                        <th>Shopping from:</th>
+                    </tr>
+                    <tr>
+                       <td><a href="#">Help</a></td>
+                       <td><a href="#">About Us</a></td>
+                       <td><a href="#">Moblie and Style.25</a></td>
+                       <td><a href="#">LINK : https://maps.app.goo.gl/prKhQwNuTzEcrZVe9</a></td>
+                       
+                       
+                    </tr>
+                    <tr>
+                        <td><a href="#">Track order</a></td>
+                        <td><a href="#">Careesr at Style.25</a></td>
+                        <td><a href="#">Style.25 Marketplace</a></td>
+                        <td><a href="#"></a></td>
+                        
+                        
+                     </tr>
+                     <tr>
+                        <td><a href="#">Delivery & returns</a></td>
+                        <td><a href="#">Corporate responsibility</a></td>
+                        <td><a href="#">Gift vouchers</a></td>
+                        <td><a href="#"></a></td>
+                        
+                        
+                     </tr>
+                     <tr>
+                        <td><a href="#">Sitemap</a></td>
+                        <td><a href="#">Investors' site</a></td>
+                        <td><a href="#">Black Friday</a></td>
+                        <td><a href="#"></a></td>
+                        
+                     </tr>
+                     <tr>
+                        <td><a href="#"></a></td>
+                        <td><a href="#"></a></td>
+                        <td><a href="#">Style.25 X Thrift+</a></td>
+                        <td><a href="#"></a></td>
+                        
+                     </tr>
+                     <tr>
+                        <td><a href="#"></a></td>
+                        <td><a href="#"></a></td>
+                        <td><a href="#">Discover the Style.25 Credit Card</a></td>
+                        <td><a href="#"></a></td>
+                        
+                     </tr>
+
+            </table>
+    </div>
+
+    <div class="footer-down">
+        <div class="footer-right">
+            
+                <a href="#" style="text-decoration: none; color: black;">©Style.25</a>
+            
+        </div>
+        <div class="footer-left">
+           <ul>
+                <li><a href="#">Privacy & Cookies</a></li>
+                <li><a href="#">St&Cs</a></li>
+                <li><a href="#">Accessibility</a></li>
+           </ul>
+        </div>
+    </div>
+
+</footer>
+
+
+<!-- ==============ion-icon================= -->
+ <script src="scritp.js" type="text/javascript"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
