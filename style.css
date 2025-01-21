@@ -1003,7 +1003,7 @@ top: 0;
     }
    .left-menu{
         position: absolute;
-        left: 5rem;
+        left: 2rem;
         top: 0;
     }
    
@@ -1013,7 +1013,7 @@ top: 0;
     /* display: none; */
     position: absolute;
     top: 0;
-    left: 2rem;
+    left: 1rem;
   }
   .right-menu #menuDropNav{
     display: none;
@@ -1127,12 +1127,12 @@ top: 0;
     
 }.container-1 .preview-right{
     position: absolute;
-    left: 5.5rem;
+    left: 4rem;
     top: 32rem;
 }
 .container-1 .preview-left{
     position: absolute;
-    left: 5.5rem;
+    left: 4rem;
     top: 30rem;
     width: 300px;
 }
