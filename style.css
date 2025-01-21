@@ -1003,7 +1003,7 @@ top: 0;
     }
    .left-menu{
         position: absolute;
-        left: 3px;
+        left: 0;
         top: 0;
     }
    
@@ -1013,7 +1013,7 @@ top: 0;
     /* display: none; */
     position: absolute;
     top: 0;
-    left: 1rem;
+    left: 2rem;
   }
   .right-menu #menuDropNav{
     display: none;
@@ -1042,8 +1042,8 @@ top: 0;
     border: none;
     background-color: none;
     position: absolute;
-    top:9vh ;
-    left:-140px ;
+    top:10vh ;
+    left:12rem ;
 }#option ul{
     
     background-color: none;
@@ -1132,7 +1132,7 @@ top: 0;
 }
 .container-1 .preview-left{
     position: absolute;
-    left: 4rem;
+    left: 3rem;
     top: 30rem;
     width: 300px;
 }
