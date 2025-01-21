@@ -1127,7 +1127,7 @@ top: 0;
     
 }.container-1 .preview-right{
     position: absolute;
-    left: 5rem;
+    left: 5.5rem;
     top: 32rem;
 }
 .container-1 .preview-left{
@@ -1146,8 +1146,8 @@ top: 0;
 /* card-alert================= */
 .card-alert{
   position: absolute;
-  top:10rem;
-  right: -10rem;
+  top:2rem;
+  right: -17rem;
 }
 
 
